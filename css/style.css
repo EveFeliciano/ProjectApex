@@ -5,3 +5,33 @@ h1{
     color: deeppink;
     text-align: center;
 }
+header{
+    width: 100%;
+}
+
+.logo{
+    text-align: center;
+   color: hotpink;
+    font: size 1.5em;
+}
+nav{
+    text-align: center;
+   color: hotpink;
+    font-size: 1.5em;
+}
+
+.banner{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: hotpink;
+
+}
+
+footer{
+    background-color: hotpink;
+    width: 100%;
+}

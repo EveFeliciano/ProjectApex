@@ -1,8 +1,8 @@
 body{
-    background-color: rgb(163, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 h1{
-    color: rgb(255, 255, 255);
+    color: rgb(179, 73, 255);
     text-align: center;
 }
 header{
@@ -11,12 +11,12 @@ header{
 
 .logo{
     text-align: center;
-   color: rgb(255, 255, 255);
+   color: rgb(174, 0, 255);
     font: size 1.5em;
 }
 nav{
     text-align: center;
-   color: rgb(255, 255, 255);
+   color: rgb(172, 94, 255);
     font-size: 1.5em;
 }
 
@@ -27,11 +27,11 @@ nav{
 .container{
     width: 80%;
     margin: auto;
-    background-color: rgb(255, 80, 80);
+    background-color: rgb(220, 146, 255);
 
 }
 
 footer{
-    background-color: rgb(255, 93, 93);
+    background-color: rgb(219, 148, 255);
     width: 100%;
 }

@@ -1,8 +1,8 @@
 body{
-    background-color: lightpink;
+    background-color: rgb(163, 0, 0);
 }
 h1{
-    color: deeppink;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 header{
@@ -11,12 +11,12 @@ header{
 
 .logo{
     text-align: center;
-   color: hotpink;
+   color: rgb(255, 255, 255);
     font: size 1.5em;
 }
 nav{
     text-align: center;
-   color: hotpink;
+   color: rgb(255, 255, 255);
     font-size: 1.5em;
 }
 
@@ -27,11 +27,11 @@ nav{
 .container{
     width: 80%;
     margin: auto;
-    background-color: hotpink;
+    background-color: rgb(255, 80, 80);
 
 }
 
 footer{
-    background-color: hotpink;
+    background-color: rgb(255, 255, 255);
     width: 100%;
 }

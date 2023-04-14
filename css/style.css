@@ -4,9 +4,14 @@ body{
 h1{
     color: rgb(179, 73, 255);
     text-align: center;
+    padding: 2%;
+}
+p{
+    padding: 1%;
 }
 header{
     width: 100%;
+    padding: 2%;
 }
 
 .logo{
@@ -28,7 +33,7 @@ nav{
     width: 80%;
     margin: auto;
     background-color: rgb(220, 146, 255);
-
+    padding: 2%;
 }
 
 footer{

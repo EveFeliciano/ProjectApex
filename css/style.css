@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(255, 255, 255);
 }
@@ -39,4 +42,18 @@ nav{
 footer{
     background-color: rgb(219, 148, 255);
     width: 100%;
+}
+
+.lendas{
+    padding-right: 100%;
+}
+
+.ladodir{
+    float: right;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.imgmeio{
+
 }

@@ -57,3 +57,37 @@ footer{
 .imgmeio{
 
 }
+.linha {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.col-6{
+    width: 50%;
+}
+a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(213, 4, 255);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(142, 0, 181);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(67, 1, 100);
+  }
+  @media (max-width: 600px) {
+    .linha{
+      flex-direction: column;
+    }
+    .col-6{
+        width: 100%;
+    }
+  }

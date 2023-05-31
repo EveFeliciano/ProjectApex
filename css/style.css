@@ -21,6 +21,8 @@ h2{
 }
 p{
     padding: 1%;
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
 }
 header{
     background-color: rgb(165, 131, 231);
@@ -79,20 +81,17 @@ footer{
     width: 50%;
 }
 a:link {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   
-  /* visited link */
   a:visited {
     color: rgb(213, 4, 255);
   }
   
-  /* mouse over link */
   a:hover {
     color: rgb(142, 0, 181);
   }
   
-  /* selected link */
   a:active {
     color: rgb(67, 1, 100);
   }

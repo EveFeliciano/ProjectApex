@@ -2,29 +2,41 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(165, 131, 231);
 }
 h1{
-    color: rgb(179, 73, 255);
+    color: rgb(234, 212, 255);
     text-align: center;
     padding: 2%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 515%;
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 5%;
+}
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: purple, rgb(165, 131, 231); 
+    font-size: 400%;
 }
 p{
     padding: 1%;
 }
 header{
+    background-color: rgb(165, 131, 231);
     width: 100%;
     padding: 2%;
 }
 
 .logo{
+    background-color: rgb(165, 131, 231);
     text-align: center;
    color: rgb(174, 0, 255);
     font: size 1.5em;
 }
 nav{
     text-align: center;
-   color: rgb(172, 94, 255);
+    color: rgb(170, 0, 255);
     font-size: 1.5em;
 }
 
@@ -33,14 +45,15 @@ nav{
 }
 
 .container{
+    background-color: rgb(163, 5, 255);
     width: 80%;
     margin: auto;
-    background-color: rgb(220, 146, 255);
+    color: aliceblue;
     padding: 2%;
 }
 
 footer{
-    background-color: rgb(219, 148, 255);
+    background-color: rgb(165, 131, 231);
     width: 100%;
 }
 

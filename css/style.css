@@ -103,3 +103,48 @@ a:link {
         width: 100%;
     }
   }
+
+  .img-card{
+    background-image: linear-gradient(to right, rgb(204, 0, 255) rgb(255, 0, 187));
+    width: 90%;
+    border-style: double;
+    border-color: rgb(169, 169, 169);
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px rgba(40, 0, 78, 0.911);
+    transition: o.3s;
+    background-image: linear-gradient(to right, rgb(103, 0, 172), rgb(100, 0, 139));
+}
+.card{
+    background-image: linear-gradient(to right, rgb(225, 181, 255), rgb(213, 179, 253));
+    width: 90%;
+    box-shadow: 15px 15px 15px 2px rgba(135,206,250, 0.3); 
+    transition: 0.3s;   
+    border-style: double;
+    border-color: #ffffff;
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px rgba(86, 32, 129, 0.911);
+}
+
+table, th, td {
+    border: 10px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: #e8b5ff;
+  }
+table {
+
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 10px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd00;
+}

@@ -23,6 +23,7 @@ p{
     padding: 1%;
     font-family: 'Roboto Slab', serif;
     text-align: justify;
+    color: #ffffff;
 }
 header{
     background-color: rgb(165, 131, 231);
@@ -147,4 +148,9 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #ffffff;
+}
+
+li{
+  font-family: monospace;
+  padding-top: 1%;
 }

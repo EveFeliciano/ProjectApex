@@ -86,7 +86,7 @@ a:link {
   }
   
   a:visited {
-    color: rgb(213, 4, 255);
+    color: rgb(98, 0, 116);
   }
   
   a:hover {
@@ -151,6 +151,100 @@ tr:nth-child(even) {
 }
 
 li{
-  font-family: monospace;
+  
+  font-family:inherit;
+  padding-top: 1%;
+  padding-right: 2%;
+  display: inline-block;
+  padding: 20px
+}
+
+ol{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #ffffff;
   padding-top: 1%;
 }
+ul { list-style-type: disc;
+  color: #9663B8 ;
+  font-size: 25px;
+  font-weight: bold; }
+
+.secbanner{
+  width: 100%;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #9b4caf;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.instagram-container {
+  display: flex;
+  align-items: center;
+}
+
+.instagram-container img {
+  width: 75px;
+  margin-right: 10px;
+}
+
+.instagram-link {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #a840e4;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.instagram-link:hover {
+  background-color: #bd56f8;
+}
+
+.custom-list {
+  list-style-type: none;
+  padding: 0;
+  color: #ffffff;
+}
+
+.custom-list li:before {
+  margin-right: 5px;
+}
+
+.custom-list li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+
+

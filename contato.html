@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lendas</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/logoc.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Contato</title>
 </head>
 <body>
     <header>
 		<div class="logo">
 			<p class="meio">Logo</p>
-			<p class="meio">CONTATO</p>
+			<h2 class="meio">CONTATO</h2>
 		</div>
 		<nav>
 			<ul>
@@ -18,13 +24,31 @@
 				<li><a href="atualizacoes.html">atualizações do game</a></li>
 				<li><a href="#valkyrie">Valkirie, lenda da temporada</a></li>
 				<li><a href="#Info">informações do game</a></li>
+				<li><a href="contato.html">contato</a></li>
 			</ul>
 		</nav>
 	</header>
 	<figure>
 		<img class="banner" src="img/gif apex.gif" alt="banner gif">
 	</figure>
-	<p>FORMULÁRIO DE CONTATO</p>
+  <h1>Formulário de Contato</h1>
+  <form action="#" method="POST">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Mensagem:</label>
+    <textarea id="message" name="message" required></textarea>
+    
+	<div class="instagram-container">
+		<img src="img/imagem_2023-06-23_201407568-removebg-preview.png" alt="Imagem do Instagram">
+		<a class="instagram-link" href="https://www.instagram.com/eburimm/" target="_blank">INSTAGRAM DA DESENVOLVEDORA</a>
+	  </div>
+	  
+	
+  </form>
 	<footer>
 		<p>Desenvolvido por Evellyn Feliciano</p>
 	</footer>   

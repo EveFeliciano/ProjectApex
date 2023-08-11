@@ -254,3 +254,9 @@ input[type="submit"] {
   overflow-x: auto;
 }
 
+.logotop{
+  width: 20%;
+}
+.social{
+  width: 5%;
+}

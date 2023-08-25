@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste CSS</title>
+    <title>Teste de Posições</title>
+    
+    <style>
+        body{
+            background-color: rgb(198, 28, 255);
+        }
+        h1{
+            text-align: center;
+            font-weight: bold;
+        }
+        p{
+            color: rgb(255, 255, 255);
+            background-color: #f89cff;
+        }
+        .container{
+            position: relative;
+            background-color: rgb(166, 0, 255);
+            width: 100%;
+            height: 1220px;
+            text-align: center;
+        }
+        .topesquerdo{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(209, 73, 255);
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+        .topdireito{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(255, 94, 252);
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+        .baiesquerdo{
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(122, 7, 113);
+            color: rgb(255, 250, 245);
+            font-weight: bold;
+        }
+        .baidireito{
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(195, 0, 255);
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+        .meio{
+            position: absolute;
+            width: 20%;
+            top: 610px;
+            right: 40%;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(183, 0, 255);
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+        .fixa{
+            position: fixed;
+            top: 0;
+            z-index: 1030;
+            right: 0;
+            left: 0;
+            background-color: rgb(190, 135, 222);
+        }
+        .img{
+            width: 100%;
+        }
+        footer{
+        width: 100%;
+        height: 150px;
+        background-color: rgb(198, 132, 255); /* For browsers that do not support gradients */
+        background-image: linear-gradient(0deg, rgb(142, 0, 155), rrgb(233, 198, 255);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="fixa">Teste de CSS Positions</h1>
+        <p>Na primeira vez que explorei os menus do jogo, fiquei incrédulo com a quantidade de skins e itens cosméticos que já estavam disponíveis imediatamente depois do lançamento. Além disso, uma robusta loja e as famigeradas microtransações já estavam ali - uma estrutura já preparada para os milhões de jogadores que adentrariam aquele universo</p>
+        <p>A jogabilidade, como esperado, bebe muito do que já conhecemos em vários títulos da franquia Call of Duty, a qual a equipe da Respawn já teve bastante contato.
+
+            Com uma variedade razoável de armas, a grande dificuldade está em descobrir os equipamentos corretos para cada tipo de batalha, dependendo da distância e de suas habilidades. Mirar e atirar, assim como em CoD, é bastante simples e prazeroso.
+            
+            As habilidades específicas de cada personagem trazem um elemento a mais, dando uma identidade única ao game - era muito fácil que Apex se tornasse um jogo similar a Overwatch, por exemplo, mas a sensação transmitida pelo título é autêntica.
+            
+            </p>
+    <div class="main">
+        <h1>Teste</h1>
+        <div class="container">
+            <img class="img" src="img/testecss.jpg" alt="">
+            <div class="topesquerdo">Topo Esquerdo</div>
+            <div class="topdireito">Topo Direito</div>
+            <div class="baiesquerdo">Baixo Esquerdo</div>
+            <div class="baidireito">Baixo Direito</div>
+            <div class="meio">Centro</div>
+        </div>
+    </div>
+    <footer>
+        <p>Voltar</p>
+    </footer>
+</body>
+</html>

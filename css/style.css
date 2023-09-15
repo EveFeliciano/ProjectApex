@@ -1,6 +1,12 @@
 html{
     scroll-behavior: smooth;
 }
+.img{
+  width: 50%;
+}
+.imggrande{
+  width: 70%;
+}
 body{
     background-color: rgb(165, 131, 231);
 }
@@ -129,6 +135,7 @@ a:link {
 table, th, td {
     border: 10px solid rgb(255, 255, 255);
     border-collapse: collapse;
+    width: 100%;
   }
   th, td {
     background-color: #e8b5ff;
@@ -138,6 +145,9 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+}
+.tabelaresponsiva{
+  width: 50%;
 }
 
 td, th {
@@ -232,7 +242,7 @@ input[type="submit"] {
 }
 
 .custom-list {
-  list-style-type: none;
+  list-style-type: circle;
   padding: 0;
   color: #ffffff;
 }
